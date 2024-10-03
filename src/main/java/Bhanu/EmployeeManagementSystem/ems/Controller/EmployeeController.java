@@ -13,6 +13,7 @@ import java.util.List;
 @CrossOrigin("*")
 @AllArgsConstructor
 @Controller
+@RestController
 @RequestMapping("/api/employee")
 public class EmployeeController {
     private EmployeeService employeeService;
